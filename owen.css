@@ -84,3 +84,21 @@ nav a:hover{background-color:white;
 #videos{float:right;
 width:540px;
 }
+
+.column{float:left;
+width:50%;
+margin-top:10px;
+margin-bottom:10px;
+background-color:white;
+color:black;
+font-family:Arial, Verdana, sans-serif;
+}
+
+.row:after{content: "";
+display:table;
+clear:both;
+}
+
+.smalllogo{width:3%;
+height:3%;
+}
